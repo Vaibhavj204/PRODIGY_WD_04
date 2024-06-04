@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /*nav {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    border-radius: 7px;
+    padding: 0 20px;
+    width: calc(100% - 20px);
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: lawngreen;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: all 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: black;
+  }
+  
+  .left {
+    font-size: 1.5rem;
+    color: lawngreen;
+    margin-right: 20px;
+  }*/
+
+  nav{
+    height: 80px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 50px 0px 100px;
+    border-radius:5px;
+}
+
+nav .logo{
+    font-size: 33px;
+    color: lawngreen;
+    font-weight: 600;
+    margin-left:-5%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0  5px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+    padding: 8px 15px;
+    border-radius: 1px;
+    transition: all 0.3s;
+}
+nav ul li a:hover,
+nav ul li a.active{
+    color: black;
+    background: lawngreen;
+}
+
+nav  img{
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+#click{
+    display: none;
+}
+  
+  .first {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    flex-wrap: wrap;
+  }
+  
+  .first > div {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .leftsection {
+    margin: 20px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .rightsection img {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .color {
+    color: lawngreen;
+    font-size: 2.5rem;
+  }
+  
+  .hi {
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .vai {
+    color: black;
+    font-size: 2.2rem;
+  }
+  
+  button {
+    width: 210px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  footer {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 7px;
+    width: calc(100% - 20px);
+  }
+  
+  footer img {
+    margin: 10px;
+    width: 30px;
+  }
+  
+  footer img:hover {
+    transform: scale(1.1);
+  }
+  
+  .about {
+    margin: 50px 20px;
+    padding: 20px;
+  }
+  
+  .about p {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  .quali {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(228, 226, 226);
+    margin: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .h11 {
+    font-size: 1.5rem;
+    color: black;
+    text-align: left;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  
+  .box {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    flex: 1 1 calc(33.333% -40px);
+    min-width: 200px;
+  }
+  
+  .h12 {
+    font-size: 1.5rem;
+    color: black;
+    margin: 20px 0;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .skills {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    flex: 1 1 calc(33.333% - 40px);
+    min-width: 200px;
+    text-align: center;
+  }
+  
+  .skills img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .skills h3 {
+    color: black;
+    margin: 0 10px;
+  }
+  
+  .skills p {
+    display: none;
+    color: white;
+    margin: 0;
+  }
+  
+  @media (max-width: 940px) {
+    nav {
+      flex-direction: column;
+      width: 300px;
+      
+    }
+  /*
+    .right ul {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .right ul li {
+      margin: 10px 0;
+    }
+  
+    .right ul li a {
+      font-size: 20px;
+    }
+  
+    .left {
+      margin-bottom: 10px;
+    }*/
+
+    nav img{
+      display: block;
+   }
+
+  
+  nav ul{
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background: black ;
+      height: 100vh;
+      width: 100%;
+      display: block;
+      text-align: center;
+      transition: all 0.3s ease;
+  }
+
+  #click:checked ~ ul {
+      left: 0%;
+  }
+  nav ul li{
+      margin: 40px 0;
+  }
+  nav ul li a{
+    font-size: 20px;
+     
+  }
+  
+    .first {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .leftsection, .rightsection {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .about, .quali, footer {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .box, .skills {
+      width: 100%;
+      flex: none;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .leftsection {
+      font-size: 1.5rem;
+    }
+  
+    .color {
+      font-size: 2rem;
+    }
+  
+    .hi, .vai {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      width: 150px;
+      padding: 10px 0;
+    }
+  
+    .skills h3 {
+      margin: 0 5px;
+    }
+  
+    .skills p {
+      font-size: 0.9rem;
+    }
+  }
+  
